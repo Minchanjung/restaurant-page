@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("wallpaperflare.com_wallpaper.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+
+}
+
+#header {
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 2em;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+}
+
+li {
+    display: inline;
+    margin-right: 2em;
+}
+
+#body {
+    background-color: rgba(0,0,0,0.6);
+    margin: 3em;
+    min-height: 30em;
+    max-height: 60em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+#textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#captionOne {
+    font-weight: lighter;
+}
+
+#secondMenu {
+    padding: 8px 22px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    transition: 0.3s ease;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+#secondMenu:hover {
+    background-color: black;
+}
+
+#footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 22em;
+    background-color: rgba(0,0,0,0.6);
+    height: 8em;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#contactInfo {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#followInfo {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
